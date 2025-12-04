@@ -21,4 +21,4 @@ jobs:
 
       - name: Sync to S3
         run: |
-          aws s3 sync . s3://S3-github-test-user --delete
+          aws s3 sync . s3://test-s3-github-741 --delete
